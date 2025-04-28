@@ -1,17 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-body{
-    font-family : "Overpass" , sans-serif;
+body {
+    font-family: "Overpass", sans-serif;
     box-sizing: border-box;
-    font-size: 15px; 
+    font-size: 15px;
     background-color: hsl(216, 12%, 8%);
     margin: 1.5rem;
     display: flex;
@@ -20,18 +19,20 @@ body{
     justify-content: center;
     min-height: 100vh;
 
-}   
-ul{
+}
+
+ul {
     list-style-type: none;
 }
 
-button{
+button {
     font-family: inherit;
 }
 
-.main-container,.thank-you{
-    background-color:hsl(213, 19%, 18%) ;
-    
+.main-container,
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+
     padding: 1.5rem;
     border-radius: 0.625rem;
     max-width: 400px;
@@ -39,50 +40,57 @@ button{
 
 }
 
-.main-container img{
-    background-color:hsl(213, 20%, 22%) ;
+.main-container img {
+    background-color: hsl(213, 20%, 22%);
     padding: 0.5rem;
     border-radius: 50%;
 }
-p{
+
+p {
     line-height: 1.8rem;
 
 }
 
-.main-container p{
-    color:hsl(217, 12%, 63%) ;
+.main-container p {
+    color: hsl(217, 12%, 63%);
     margin-bottom: 1 rem;
 }
-.main-container h1{
+
+.main-container h1 {
     color: white;
     margin: 2rem 0 1rem;
 }
-.main-container ul{
+
+.main-container ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
 }
-.main-container ul li button{
+
+.main-container ul li button {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    border:none;
+    border: none;
     background-color: hsl(213, 20%, 22%);
     padding: 0.2rem;
     color: white;
     cursor: pointer;
-    transition: 0.3s ;
+    transition: 0.3s;
 }
-.main-container ul li button:hover{
-    background-color:hsl(25, 97%, 53%) ;
+
+.main-container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
 }
-.main-container ul li button:focus{
-background-color:hsl(217, 12%, 63%) ;
+
+.main-container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
 }
-.btn-submit{
-    background-color:hsl(25, 97%, 53%)  ;
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
     width: 100%;
     padding: 0.8rem 0 0.6rem;
     border: none;
@@ -95,52 +103,57 @@ background-color:hsl(217, 12%, 63%) ;
 
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     background-color: white;
-    color: hsl(25, 97%, 53%) ;
+    color: hsl(25, 97%, 53%);
 }
 
-.thank-you img{
+.thank-you img {
     display: block;
     margin: 0 auto 2rem;
 }
-.thank-you{
+
+.thank-you {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
-.thank-you p.gray{
+
+.thank-you p.gray {
     background-color: hsl(213, 20%, 22%);
-    color:hsl(25, 97%, 53%) ;
-    padding: 0.2rem  0.3rem 0;
+    color: hsl(25, 97%, 53%);
+    padding: 0.2rem 0.3rem 0;
     font-size: 0.9rem;
     border-radius: 30px;
     margin-bottom: 2rem;
 }
-.thank-you h2{
+
+.thank-you h2 {
     color: white;
     margin: 1rem;
 
 }
-.thank-you p{
-    color:hsl(217, 12%, 63%);
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
     margin-bottom: 2rem;
 }
-.hidden{
+
+.hidden {
     display: none;
- }
-    
-.attribution { 
-    font-size: 14px; 
+}
+
+.attribution {
+    font-size: 14px;
     text-align: center;
     color: white;
     margin-top: 2rem;
- }
- 
+}
 
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
